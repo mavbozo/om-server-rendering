@@ -35,6 +35,8 @@
                              :output-dir "resources/public/out"
                              :source-map "resources/public/framework.js.map"
                              :optimizations :whitespace}}]}
+  ;; change this :java-cmd to your java 1.8 command path
+  :java-cmd "/opt/jdk/jdk1.8.0_31/bin/java"
 
   :source-paths ["src/clj"]
   :resource-paths ["resources"]
